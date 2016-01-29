@@ -49,7 +49,7 @@ class MapViewController: UIViewController,MKMapViewDelegate {
         
         for entry in entries {
             let annotation = CustomAnnotation(entry: entry)
-            annotation.coordinate = CLLocationCoordinate2D(latitude: entry.latitude as Double, longitude: entry.longtitude as Double)
+            annotation.coordinate = CLLocationCoordinate2D(latitude: entry.latitude as! Double, longitude: entry.longtitude as! Double)
             mapView.addAnnotation(annotation)
             
             

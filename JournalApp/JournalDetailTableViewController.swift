@@ -35,17 +35,17 @@ class JournalDetailTableViewController: UITableViewController,CLLocationManagerD
         
         
         
-         var picturesArray:[Picture] = entry?.pictures.allObjects as! [Picture]
+         var picturesArray:[Picture] = entry?.pictures!.allObjects as! [Picture]
         if picturesArray.count != 0 {
         
             for index in 0 ... (picturesArray.count-1) {
                 let picture = picturesArray[index]
                 var fileData:NSData = NSData()
-                if let file: NSFileHandle? = NSFileHandle(forReadingAtPath:"\(picture.path)/\(picture.name)")
+                if let file: NSFileHandle = NSFileHandle(forReadingAtPath:"\(picture.path)/\(picture.name)")
                 {
                     print("\(picture.path)/\(picture.name)")
-                    fileData = file!.readDataToEndOfFile()
-                    file?.closeFile()
+                    fileData = file.readDataToEndOfFile()
+                    file.closeFile()
 
                     let image = UIImage(data:fileData)!
                     images.append(image)
@@ -112,7 +112,7 @@ class JournalDetailTableViewController: UITableViewController,CLLocationManagerD
             cell.journalMap.delegate = self
             
             let annotation = MKPointAnnotation()
-            annotation.coordinate = CLLocationCoordinate2D(latitude: entry!.latitude as Double, longitude: entry!.longtitude as Double)
+            annotation.coordinate = CLLocationCoordinate2D(latitude: entry!.latitude as! Double, longitude: entry!.longtitude as! Double)
             annotation.title = "Hello"
             annotation.subtitle = "World!"
             cell.journalMap.addAnnotation(annotation)
