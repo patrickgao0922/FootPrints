@@ -49,11 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD09FCCC1B95452500F350FB /* JournalImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalImageTableViewCell.swift; sourceTree = "<group>"; };
-		CD09FCD21B96AEE700F350FB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		CD3599B91B942BCD007EF4F3 /* JournalDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalDetailTableViewController.swift; sourceTree = "<group>"; };
-		CD3599BD1B9448FA007EF4F3 /* JournalBodyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalBodyTableViewCell.swift; sourceTree = "<group>"; };
-		CD3599BF1B944F07007EF4F3 /* JournalMapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalMapTableViewCell.swift; sourceTree = "<group>"; };
+		CD09FCCC1B95452500F350FB /* JournalImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JournalImageTableViewCell.swift; path = JournalApp/JournalImageTableViewCell.swift; sourceTree = "<group>"; };
+		CD09FCD21B96AEE700F350FB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = JournalApp/MapViewController.swift; sourceTree = "<group>"; };
+		CD3599B91B942BCD007EF4F3 /* JournalDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JournalDetailTableViewController.swift; path = JournalApp/JournalDetailTableViewController.swift; sourceTree = "<group>"; };
+		CD3599BD1B9448FA007EF4F3 /* JournalBodyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JournalBodyTableViewCell.swift; path = JournalApp/JournalBodyTableViewCell.swift; sourceTree = "<group>"; };
+		CD3599BF1B944F07007EF4F3 /* JournalMapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JournalMapTableViewCell.swift; path = JournalApp/JournalMapTableViewCell.swift; sourceTree = "<group>"; };
 		CD39C3801C5709C800A3DB51 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		CD39C3811C5709C800A3DB51 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		CD39C3821C5709C800A3DB51 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
@@ -61,19 +61,19 @@
 		CD4423041B901506000EC621 /* FootPrints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootPrints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4423081B901506000EC621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD4423091B901506000EC621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD44230E1B901506000EC621 /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		CD44230E1B901506000EC621 /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JournalTableViewController.swift; path = JournalApp/JournalTableViewController.swift; sourceTree = "<group>"; };
 		CD4423111B901506000EC621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD4423131B901506000EC621 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD4423161B901506000EC621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CD44231C1B901506000EC621 /* FootPrints.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootPrints.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4423211B901506000EC621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD4423221B901506000EC621 /* JournalAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalAppTests.swift; sourceTree = "<group>"; };
-		CD44232C1B9015DF000EC621 /* EntryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryTableViewCell.swift; sourceTree = "<group>"; };
-		CD44232E1B90183B000EC621 /* AddEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
-		CD4423301B901971000EC621 /* PictureCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewController.swift; sourceTree = "<group>"; };
-		CD4423321B901A08000EC621 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD44232C1B9015DF000EC621 /* EntryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryTableViewCell.swift; path = JournalApp/EntryTableViewCell.swift; sourceTree = "<group>"; };
+		CD44232E1B90183B000EC621 /* AddEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddEntryViewController.swift; path = JournalApp/AddEntryViewController.swift; sourceTree = "<group>"; };
+		CD4423301B901971000EC621 /* PictureCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureCollectionViewController.swift; path = JournalApp/PictureCollectionViewController.swift; sourceTree = "<group>"; };
+		CD4423321B901A08000EC621 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewCell.swift; path = JournalApp/ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		CD4ED0291B92D8F800B118D0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		CD7704FA1B97123E0093D162 /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		CD7704FA1B97123E0093D162 /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomAnnotation.swift; path = JournalApp/CustomAnnotation.swift; sourceTree = "<group>"; };
 		CD83182A1C564923003EEAD1 /* CalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalloutView.xib; sourceTree = "<group>"; };
 		CD91FCCE1B92AD6A004E9952 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CDFBDD851C58F4FE0084998B /* FootPrints.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FootPrints.xcdatamodel; sourceTree = "<group>"; };
@@ -121,6 +121,7 @@
 		CD4422FB1B901506000EC621 = {
 			isa = PBXGroup;
 			children = (
+				CD900AEE1C5BC84B00BE19FD /* Model */,
 				CDFBDD9F1C5A48DB0084998B /* SWRevealViewController */,
 				CDFBDD971C58F5D90084998B /* Entry+CoreDataProperties.swift */,
 				CDFBDD981C58F5D90084998B /* Entry.swift */,
@@ -150,13 +151,7 @@
 		CD4423061B901506000EC621 /* JournalApp */ = {
 			isa = PBXGroup;
 			children = (
-				CD09FCCC1B95452500F350FB /* JournalImageTableViewCell.swift */,
-				CD3599B91B942BCD007EF4F3 /* JournalDetailTableViewController.swift */,
-				CD4423301B901971000EC621 /* PictureCollectionViewController.swift */,
 				CD4423091B901506000EC621 /* AppDelegate.swift */,
-				CD09FCD21B96AEE700F350FB /* MapViewController.swift */,
-				CD44232E1B90183B000EC621 /* AddEntryViewController.swift */,
-				CD44230E1B901506000EC621 /* JournalTableViewController.swift */,
 				CD4423101B901506000EC621 /* Main.storyboard */,
 				CD4423131B901506000EC621 /* Images.xcassets */,
 				CD4423151B901506000EC621 /* LaunchScreen.xib */,
@@ -168,11 +163,6 @@
 		CD4423071B901506000EC621 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CD3599BF1B944F07007EF4F3 /* JournalMapTableViewCell.swift */,
-				CD44232C1B9015DF000EC621 /* EntryTableViewCell.swift */,
-				CD3599BD1B9448FA007EF4F3 /* JournalBodyTableViewCell.swift */,
-				CD4423321B901A08000EC621 /* ImageCollectionViewCell.swift */,
-				CD7704FA1B97123E0093D162 /* CustomAnnotation.swift */,
 				CD4423081B901506000EC621 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -206,9 +196,27 @@
 		CD83182C1C56496F003EEAD1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CD3599B91B942BCD007EF4F3 /* JournalDetailTableViewController.swift */,
+				CD4423301B901971000EC621 /* PictureCollectionViewController.swift */,
+				CD09FCD21B96AEE700F350FB /* MapViewController.swift */,
+				CD44232E1B90183B000EC621 /* AddEntryViewController.swift */,
+				CD44230E1B901506000EC621 /* JournalTableViewController.swift */,
 				CD39C3861C570E9100A3DB51 /* LoginViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		CD900AEE1C5BC84B00BE19FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD3599BF1B944F07007EF4F3 /* JournalMapTableViewCell.swift */,
+				CD44232C1B9015DF000EC621 /* EntryTableViewCell.swift */,
+				CD3599BD1B9448FA007EF4F3 /* JournalBodyTableViewCell.swift */,
+				CD4423321B901A08000EC621 /* ImageCollectionViewCell.swift */,
+				CD09FCCC1B95452500F350FB /* JournalImageTableViewCell.swift */,
+				CD7704FA1B97123E0093D162 /* CustomAnnotation.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		CDFBDD9F1C5A48DB0084998B /* SWRevealViewController */ = {
