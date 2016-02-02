@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CD09FCCD1B95452500F350FB /* JournalImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09FCCC1B95452500F350FB /* JournalImageTableViewCell.swift */; };
 		CD09FCD31B96AEE700F350FB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09FCD21B96AEE700F350FB /* MapViewController.swift */; };
+		CD1CC5421C60A280007F3CAD /* Constrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CC5411C60A280007F3CAD /* Constrants.swift */; };
+		CD1CC5441C60A65F007F3CAD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CC5431C60A65F007F3CAD /* RegisterViewController.swift */; };
 		CD3599BA1B942BCD007EF4F3 /* JournalDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3599B91B942BCD007EF4F3 /* JournalDetailTableViewController.swift */; };
 		CD3599BE1B9448FA007EF4F3 /* JournalBodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3599BD1B9448FA007EF4F3 /* JournalBodyTableViewCell.swift */; };
 		CD3599C01B944F07007EF4F3 /* JournalMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3599BF1B944F07007EF4F3 /* JournalMapTableViewCell.swift */; };
@@ -27,6 +29,8 @@
 		CD4423311B901971000EC621 /* PictureCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4423301B901971000EC621 /* PictureCollectionViewController.swift */; };
 		CD4423331B901A08000EC621 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4423321B901A08000EC621 /* ImageCollectionViewCell.swift */; };
 		CD4ED02A1B92D8F800B118D0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4ED0291B92D8F800B118D0 /* MapKit.framework */; };
+		CD597A051C6098C5006759CA /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD597A041C6098C5006759CA /* Firebase.framework */; };
+		CD597A061C6098C5006759CA /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD597A041C6098C5006759CA /* Firebase.framework */; };
 		CD7704FB1B97123E0093D162 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7704FA1B97123E0093D162 /* CustomAnnotation.swift */; };
 		CD83182B1C564923003EEAD1 /* CalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD83182A1C564923003EEAD1 /* CalloutView.xib */; };
 		CD91FCCF1B92AD6A004E9952 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD91FCCE1B92AD6A004E9952 /* CoreLocation.framework */; };
@@ -36,6 +40,8 @@
 		CDFBDD9D1C58F5D90084998B /* Picture+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBDD991C58F5D90084998B /* Picture+CoreDataProperties.swift */; };
 		CDFBDD9E1C58F5D90084998B /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBDD9A1C58F5D90084998B /* Picture.swift */; };
 		CDFBDDA21C5A48DB0084998B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBDDA11C5A48DB0084998B /* SWRevealViewController.m */; };
+		E9072CE0B77B1B477BEE576A /* Pods_FootPrintsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F0FA59A120D2D0DF7664C7 /* Pods_FootPrintsTests.framework */; };
+		FBA0D6AED7FEE3F7C41F8499 /* Pods_FootPrints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DD00A060D0504AA138AF58 /* Pods_FootPrints.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16F0FA59A120D2D0DF7664C7 /* Pods_FootPrintsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FootPrintsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DD00A060D0504AA138AF58 /* Pods_FootPrints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FootPrints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59312B2E4F34D0F6BB08ACB7 /* Pods-FootPrints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootPrints.release.xcconfig"; path = "Pods/Target Support Files/Pods-FootPrints/Pods-FootPrints.release.xcconfig"; sourceTree = "<group>"; };
+		8BEB22B559CB2C8B7841433B /* Pods-FootPrintsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootPrintsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FootPrintsTests/Pods-FootPrintsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2902021CA3A614661523262 /* Pods-FootPrints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootPrints.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FootPrints/Pods-FootPrints.debug.xcconfig"; sourceTree = "<group>"; };
+		C1BC530649D1CB16A5FDB470 /* Pods-FootPrintsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootPrintsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FootPrintsTests/Pods-FootPrintsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD09FCCC1B95452500F350FB /* JournalImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JournalImageTableViewCell.swift; path = JournalApp/JournalImageTableViewCell.swift; sourceTree = "<group>"; };
 		CD09FCD21B96AEE700F350FB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = JournalApp/MapViewController.swift; sourceTree = "<group>"; };
+		CD1CC5411C60A280007F3CAD /* Constrants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constrants.swift; sourceTree = "<group>"; };
+		CD1CC5431C60A65F007F3CAD /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CD3599B91B942BCD007EF4F3 /* JournalDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JournalDetailTableViewController.swift; path = JournalApp/JournalDetailTableViewController.swift; sourceTree = "<group>"; };
 		CD3599BD1B9448FA007EF4F3 /* JournalBodyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JournalBodyTableViewCell.swift; path = JournalApp/JournalBodyTableViewCell.swift; sourceTree = "<group>"; };
 		CD3599BF1B944F07007EF4F3 /* JournalMapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JournalMapTableViewCell.swift; path = JournalApp/JournalMapTableViewCell.swift; sourceTree = "<group>"; };
@@ -73,6 +87,7 @@
 		CD4423301B901971000EC621 /* PictureCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureCollectionViewController.swift; path = JournalApp/PictureCollectionViewController.swift; sourceTree = "<group>"; };
 		CD4423321B901A08000EC621 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewCell.swift; path = JournalApp/ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		CD4ED0291B92D8F800B118D0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CD597A041C6098C5006759CA /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		CD7704FA1B97123E0093D162 /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomAnnotation.swift; path = JournalApp/CustomAnnotation.swift; sourceTree = "<group>"; };
 		CD83182A1C564923003EEAD1 /* CalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalloutView.xib; sourceTree = "<group>"; };
 		CD91FCCE1B92AD6A004E9952 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -93,8 +108,10 @@
 				CD4ED02A1B92D8F800B118D0 /* MapKit.framework in Frameworks */,
 				CD39C3831C5709C800A3DB51 /* FBSDKCoreKit.framework in Frameworks */,
 				CD39C3851C5709C800A3DB51 /* FBSDKShareKit.framework in Frameworks */,
+				CD597A051C6098C5006759CA /* Firebase.framework in Frameworks */,
 				CD39C3841C5709C800A3DB51 /* FBSDKLoginKit.framework in Frameworks */,
 				CD91FCCF1B92AD6A004E9952 /* CoreLocation.framework in Frameworks */,
+				FBA0D6AED7FEE3F7C41F8499 /* Pods_FootPrints.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,15 +119,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9072CE0B77B1B477BEE576A /* Pods_FootPrintsTests.framework in Frameworks */,
+				CD597A061C6098C5006759CA /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0386598419E37D359223E279 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2902021CA3A614661523262 /* Pods-FootPrints.debug.xcconfig */,
+				59312B2E4F34D0F6BB08ACB7 /* Pods-FootPrints.release.xcconfig */,
+				C1BC530649D1CB16A5FDB470 /* Pods-FootPrintsTests.debug.xcconfig */,
+				8BEB22B559CB2C8B7841433B /* Pods-FootPrintsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6729718B45BED905666BA348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23DD00A060D0504AA138AF58 /* Pods_FootPrints.framework */,
+				16F0FA59A120D2D0DF7664C7 /* Pods_FootPrintsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1CC5401C60A26B007F3CAD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CC5411C60A280007F3CAD /* Constrants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		CD39C37F1C57099200A3DB51 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				CD597A041C6098C5006759CA /* Firebase.framework */,
 				CD39C3801C5709C800A3DB51 /* FBSDKCoreKit.framework */,
 				CD39C3811C5709C800A3DB51 /* FBSDKLoginKit.framework */,
 				CD39C3821C5709C800A3DB51 /* FBSDKShareKit.framework */,
@@ -121,6 +169,7 @@
 		CD4422FB1B901506000EC621 = {
 			isa = PBXGroup;
 			children = (
+				CD1CC5401C60A26B007F3CAD /* Utilities */,
 				CD900AEE1C5BC84B00BE19FD /* Model */,
 				CDFBDD9F1C5A48DB0084998B /* SWRevealViewController */,
 				CDFBDD971C58F5D90084998B /* Entry+CoreDataProperties.swift */,
@@ -136,6 +185,8 @@
 				CD4423061B901506000EC621 /* JournalApp */,
 				CD44231F1B901506000EC621 /* JournalAppTests */,
 				CD4423051B901506000EC621 /* Products */,
+				0386598419E37D359223E279 /* Pods */,
+				6729718B45BED905666BA348 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,6 +247,7 @@
 		CD83182C1C56496F003EEAD1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CD1CC5431C60A65F007F3CAD /* RegisterViewController.swift */,
 				CD3599B91B942BCD007EF4F3 /* JournalDetailTableViewController.swift */,
 				CD4423301B901971000EC621 /* PictureCollectionViewController.swift */,
 				CD09FCD21B96AEE700F350FB /* MapViewController.swift */,
@@ -235,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD4423261B901506000EC621 /* Build configuration list for PBXNativeTarget "FootPrints" */;
 			buildPhases = (
+				EEF5E11A37DCA9EA747AB66E /* Check Pods Manifest.lock */,
 				CD4423001B901506000EC621 /* Sources */,
 				CD4423011B901506000EC621 /* Frameworks */,
 				CD4423021B901506000EC621 /* Resources */,
+				617F71DC05B1152991F1C6F6 /* Embed Pods Frameworks */,
+				C71E09DAEF23D70BFF973D71 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD4423291B901506000EC621 /* Build configuration list for PBXNativeTarget "FootPrintsTests" */;
 			buildPhases = (
+				04717E709F7F5FE7913E0C1B /* Check Pods Manifest.lock */,
 				CD4423181B901506000EC621 /* Sources */,
 				CD4423191B901506000EC621 /* Frameworks */,
 				CD44231A1B901506000EC621 /* Resources */,
+				C40C63F6344C81F8C255F839 /* Embed Pods Frameworks */,
+				770BFD82536AD28E7759F307 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,6 +384,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04717E709F7F5FE7913E0C1B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		617F71DC05B1152991F1C6F6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootPrints/Pods-FootPrints-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		770BFD82536AD28E7759F307 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootPrintsTests/Pods-FootPrintsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40C63F6344C81F8C255F839 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootPrintsTests/Pods-FootPrintsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71E09DAEF23D70BFF973D71 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootPrints/Pods-FootPrints-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF5E11A37DCA9EA747AB66E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD4423001B901506000EC621 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -340,6 +491,7 @@
 				CDFBDD861C58F4FE0084998B /* FootPrints.xcdatamodeld in Sources */,
 				CD4423331B901A08000EC621 /* ImageCollectionViewCell.swift in Sources */,
 				CD7704FB1B97123E0093D162 /* CustomAnnotation.swift in Sources */,
+				CD1CC5441C60A65F007F3CAD /* RegisterViewController.swift in Sources */,
 				CD4423311B901971000EC621 /* PictureCollectionViewController.swift in Sources */,
 				CDFBDD9C1C58F5D90084998B /* Entry.swift in Sources */,
 				CD44232F1B90183B000EC621 /* AddEntryViewController.swift in Sources */,
@@ -349,6 +501,7 @@
 				CD3599BA1B942BCD007EF4F3 /* JournalDetailTableViewController.swift in Sources */,
 				CD09FCD31B96AEE700F350FB /* MapViewController.swift in Sources */,
 				CDFBDD9D1C58F5D90084998B /* Picture+CoreDataProperties.swift in Sources */,
+				CD1CC5421C60A280007F3CAD /* Constrants.swift in Sources */,
 				CD09FCCD1B95452500F350FB /* JournalImageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +629,7 @@
 		};
 		CD4423271B901506000EC621 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2902021CA3A614661523262 /* Pods-FootPrints.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -492,6 +646,7 @@
 		};
 		CD4423281B901506000EC621 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59312B2E4F34D0F6BB08ACB7 /* Pods-FootPrints.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -508,11 +663,13 @@
 		};
 		CD44232A1B901506000EC621 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BC530649D1CB16A5FDB470 /* Pods-FootPrintsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -527,11 +684,13 @@
 		};
 		CD44232B1B901506000EC621 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BEB22B559CB2C8B7841433B /* Pods-FootPrintsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = JournalAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
